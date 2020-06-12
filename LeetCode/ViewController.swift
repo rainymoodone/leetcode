@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         
         let addTwoNumbersAnswer = AddTwoNumbers.addTwoNumbers(temp, ListNode(9))
         print(addTwoNumbersAnswer)
+        
+        let result = LengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb")
+        print(result)
 
     }
 }
